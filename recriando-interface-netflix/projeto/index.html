@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- CONFIGURÇÃO RESPONSIVA -->
+    <link rel="stylesheet" href="css/responsive.css">
+
     <!-- VÍNCULO DO ARQUIVO DE ESTILO -->
     <link rel="stylesheet" href="styles/main.css">
+
+    <!-- FORMATAÇÃO DO CARROSSEL -->
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
 
     <title>NETFLIX CLONE</title>
 
@@ -35,11 +42,69 @@
                 <h3 class="titulo">HOUSE OF CARDS</h3>
                 <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar
                     Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                <!-- BOTÕES -->
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
+
         </div>
     </main>
 
-    <!-- <script src="./js/script.js"></script> -->
+    <!-- SESSÃO DO CARROSSEL -->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini1.jpg" alt="Imagem do item 1">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini2.jpg" alt="Imagem do item 2">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini3.jpg" alt="Imagem do item 3">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini4.jpg" alt="Imagem do item 4">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini5.jpg" alt="Imagem do item 5">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini6.jpg" alt="Imagem do item 6">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini7.jpg" alt="Imagem do item 7">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini8.jpg" alt="Imagem do item 8">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini9.jpg" alt="Imagem do item 9">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini10.jpg" alt="Imagem do item 10">
+            </div>
+        </div>
+    </div>
+
+    <!-- ARQUIVOS DE ÍCONES -->
+    <script src="https://kit.fontawesome.com/227126de3e.js"></script>
+
+    <!-- ARQUIVO DO jQuery -->
+    <script src="js/owl/jquery.min.js"></script>
+
+    <!-- ARQUIVOS DO CARROSSEL -->
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+    <!-- SCRIPT SETUP -->
+    <script src="js/owl/setup.js"></script>
 </body>
 
 </html>
