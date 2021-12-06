@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: #1d920dbe;
+}
+
+.container-fluid {
+    background-color: rgba(103, 224, 224, 0.719);
+}
+
+.margin {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#quem-somos {
+    color: #fff;
+}
+
+.comprometido {
+    color: #000;
+}
+
+#parceiros {
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+}
+
+#servicos .container-fluid {
+    color: #000;
+    background-color: rgb(252, 252, 252);
+}
+
+.bg-footer {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 30px;
+}
