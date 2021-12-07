@@ -1,0 +1,35 @@
+body {
+    background-color: bisque;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+section.header {
+    margin-top: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1.title {
+    font-size: 3.5rem;
+}
+section.about-game {
+    margin-bottom: 2.5rem;
+    width: 60%;
+}
+
+cite.quote {
+    display: flex;
+    justify-content: end;
+}
+
+footer.footer {
+    margin: 3rem;
+    font-size: 1.5rem;
+
+}
